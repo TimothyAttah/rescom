@@ -1,0 +1,288 @@
+@media screen and (max-width: 920px) {
+  .top_section {
+    height: 50vh;
+  }
+
+  .intro_info_title span {
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .intro_info h4 {
+    font-size: 35px;
+    line-height: 55px;
+  }
+
+  .container {
+    width: 85%;
+    padding: 60px 120px;
+  }
+
+  .about_details_logo {
+    max-width: 450px;
+    width: 100%;
+  }
+
+  .about_details_logo img {
+    width: 100%;
+  }
+
+  .case_study_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .case_study_title_box {
+    padding-left: 0px;
+  }
+
+  .case_study_info_container {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact_info_img2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .intro_section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .intro_info {
+    margin-top: 180px;
+    margin-left: 0px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+  }
+
+  .intro_img img {
+    border-top-left-radius: 0;
+  }
+
+  .intro_info_title {
+    gap: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    padding-left: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .intro_info_title span {
+    width: 400px;
+  }
+
+  .intro_info h4 {
+    font-size: 35px;
+    line-height: 55px;
+    text-align: center;
+  }
+
+  .about_content_wrapper {
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 10px;
+  }
+
+  .about_title_box {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .container {
+    width: 85%;
+    padding: 60px 80px;
+  }
+
+  .about_details_info_wrapper {
+    flex-direction: column;
+    margin: 20px 0;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about_details_info_wrapper {
+  }
+
+  .about_details_logo {
+    width: 100px;
+  }
+
+  .about_details_text {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .contact_container {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .top_section {
+    height: 35vh;
+  }
+
+  .logo img {
+    width: 130px;
+  }
+
+  .intro_info_title {
+    top: 60px;
+    left: 30px;
+    padding-left: 10px;
+  }
+
+  .intro_info_title span {
+    width: 250px;
+  }
+
+  .container {
+    width: 90%;
+    padding: 100px 30px;
+  }
+
+  .about_title {
+    max-width: 220px;
+    height: 220px;
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .about_details_title_box {
+    margin-bottom: 50px;
+  }
+
+  .about_details_title_box small {
+    display: inline-block;
+    text-align: center;
+    margin-left: 100px;
+  }
+
+  .about_details_title_box h4 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .case_study_info_container {
+    height: auto;
+  }
+
+  .case_study_info_wrapper {
+    max-width: 1000px;
+    width: 100%;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .case_study_info_img {
+    max-width: 220px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    left: 0px;
+  }
+
+  .case_study_info_text_wrapper {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .process_title_box {
+    text-align: center;
+  }
+
+  .process_info_wrapper {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+
+  .contact_info_wrapper {
+    width: 100%;
+  }
+
+  .contact_info_img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .contact_info_img1 {
+    text-align: center;
+    margin: auto;
+  }
+
+  .contact_info_wrapper h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .contact_info_list p {
+    font-size: 14px;
+  }
+
+  .contact_info_list {
+    flex-direction: column;
+  }
+
+  .footer_container {
+    padding: 50px 10px;
+  }
+
+  .footer_wrapper img {
+    width: 250px;
+  }
+
+  .footer_text h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .intro_info_title span {
+    width: 220px;
+  }
+  .intro_info h4 {
+    font-size: 25px;
+    line-height: 45px;
+  }
+
+  .contact_info_img1,
+  .contact_info_img2 {
+    width: 200px;
+    height: 250px;
+  }
+
+  .contact_info_wrapper h2 {
+    font-size: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
